@@ -1,0 +1,10 @@
+OR Representado pelo sinal +
+And pelo sinal 
+
+Repretação CIRCUITO
+  .
+
+Or )
+And |
+
+o not

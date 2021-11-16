@@ -1,0 +1,72 @@
+window.alert('alerta gerado')-Gera um alerta na parte superior do browser
+
+window.confirm('confirmação gerada')-Gera uma confirmação no canto superior do navegador.
+
+window.prompt('Pergunta com uma caixa de entrada')-Gera uma pergunta e uma caixa de entrada na parte superior do browser.
+
+Sinal de "=" recebe
+
+Para definir uma variavél 
+digite: var (identificador da variavél) = valor
+
+existem variaveis do tipo number(número),string(caractere),boleean(lógico),function e object
+
+Podemos atribuir um valor de uma variavél do tipo string para number mesmo ela sendo ocupada por uma string.
+
+strings devem ser escritar entre "" ' ' ´´
+
+Para concatenar sinal de "+".
+
+Para converter string para number "number(s)"
+Para converter n para string "String(n)"
+n.toString
+
+OPERADORES
+
+"/" - divisão real
+"*"- Multiplicação
+"%"-Mostra o resto da divisão 
+"**"potência
+
+
+Formatação de atribuição
+
+X=X+3   é o mesmo que X+=3
+
+X=X-5 é o mesmo que X-=5
+
+X=X+1 é o mesmo que X++
+
+X=X-1 é o mesmo que X--
+
+"!=" significa diferente
+
+"==" significa igual
+
+"==="identico
+
+"!==" desigual restrito
+
+DOM
+
+Function ação(){Escrever o código em JS para determinada function}
+
+addEventListener("evento",ação)
+
+
+Comando "creatElement("tag html") "==cria uma nova tag no html
+Comando "setattribute("id","foto")"==adiciona atributo e valores a ele
+
+namedoradio[0].checked==opção 0 escolhida
+
+comandos de repetição 
+
+while(){}
+
+do {}while{}
+
+for(var;teste;incremento){}
+
+
+
+

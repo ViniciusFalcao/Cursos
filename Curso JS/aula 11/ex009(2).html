@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imigração</title>
+    
+</head>
+<body>
+    <h1>Sistema de Imigração</h1>
+    Nacionalidade <input type="text" name="txt" id="txt"><input type="button" value="Verificiar" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar(){
+            var N=window.document.getElementById("txt")
+            var R=window.document.getElementById("res")
+            if(N.value=="Brasil"){R.innerHTML="<p>Você é Brasileiro!</p>"} else{R.innerHTML="<p>Você é estrangeiro !</p>"}
+            R.innerHTML+="Bem vindo ao Brasil"
+
+        }
+        
+    </script>
+    
+</body>
+</html>

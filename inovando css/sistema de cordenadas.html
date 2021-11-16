@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/DTD/strict.dtd">
+<!-- saved from url=(0220)https://lms.ev.org.br/mpls/WebCds/cds.aspx?action=launch&ERL=97928370-0A44-48A6-A91B-213D66744990&SID=ugvqmxisslguo4y5omhovoii&AL=True&ResumeMode=CP&DCM=ALL&TzOffSet=-3&ServerID=1&LID=00000000-0000-0000-0000-000000000000 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>(Vinicius Canuto Falcão) MicroPower Learning - Inovando com CSS </title>
+	<meta http-equiv="cache-control" content="max-age=0">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script language="JavaScript" src="./sistema de cordenadas_files/CdsApiSimpleTheme.js.download"></script>
+    <script language="JavaScript" src="./sistema de cordenadas_files/tree.js.download"></script>	
+
+    <script language="JavaScript">
+        _api_userName = "Vinicius Canuto Falcão";
+        _api_courseName = "Inovando com CSS";
+        _api_cgifullpath = "/mpls/WebCDS/";
+        _api_cgiexec = "/mpls/WebCds/cds.aspx";	
+        _api_course_baseurl = "/mpls/Custom/Cds/COURSES//2679-CSS/";
+        _api_theme_baseurl = "/mpls/Custom/Cds/THEMES//ClosedMultiploSCOs_MOBI_v5/";
+        _api_collaboration_url = "/mpls/Custom/Cds/THEMES//ClosedMultiploSCOs_MOBI_v5/templates/MsgCollabNotFound.htm";
+        _api_userid = "7148935";
+        _api_enrollmentid = "23156934";
+    </script>
+
+    <script language="JavaScript">
+        var API = null;
+        function RefreshContent() {
+            window.CDSContent.location.replace(_api_cgiexec + "?action=refresh");
+        }
+
+        function afterLoad() {
+            API = this.CDSFrame.APIAdapter;
+            apiLoadMasterFrameSet();
+
+            top.resizeTo(screen.width, screen.height);
+
+			top.apiHideToc();
+        }			
+		
+		var fnHideMenu;		
+		function afterTreeLoad() {
+			if( typeof document.getElementById('CDSTree').contentWindow.onlyHideMenu != 'undefined' )
+			{
+				fnHideMenu = document.getElementById('CDSTree').contentWindow.onlyHideMenu;
+			}			
+		}
+		
+		
+		function afterContentLoad(){
+			if( API!=null && API.initialized ) {				
+				API.LMSFinish('');
+			}
+			
+			if( typeof fnHideMenu!= 'undefined' ) fnHideMenu();		
+
+			<!--$(window).bind('unload',function(){-->
+				<!--window.top.opener.location.reload(true);-->
+			<!--});-->
+		}
+
+        function OrientationChange() {
+            masterFrameSet.rows = "0,*";
+        }
+		
+    </script>
+
+<script type="text/javascript">
+                        _api_current_enroll = 23156934;
+                        _api_checksession = false
+                    </script>
+                <script type="text/javascript" src="./sistema de cordenadas_files/jquery.min.js.download"></script></head>
+
+<frameset rows="0,*" id="masterFrameSet" name="masterFrameSet" framespacing="0" frameborder="NO" onorientationchange="OrientationChange();" onload="afterLoad()">
+	<frame id="CDSFrame" name="CDSFrame" src="./sistema de cordenadas_files/CDSFrame.html" style="{.visibility=hidden} frameborder=NO scrolling=NO noresize=true">
+	<frameset cols="0,*" id="courseFrameSet" name="courseFrameSet" border="8" marginwidth="0" marginheight="0" onresize="defaultResizeHandler();" framespacing="2" frameborder="no">
+		<frame id="CDSTree" name="CDSTree" src="./sistema de cordenadas_files/saved_resource.html" marginwidth="0" marginheight="0" frameborder="NO" onload="javascript:afterTreeLoad();">
+		<frame id="CDSContent" name="CDSContent" src="./sistema de cordenadas_files/saved_resource(1).html" onload="javascript:afterContentLoad();">
+	</frameset>
+</frameset>
+
+</html>
