@@ -1,3 +1,0 @@
-colocar a variavel entre {}
-Exemplo:
-<p> Olá sou {new name}<p/>

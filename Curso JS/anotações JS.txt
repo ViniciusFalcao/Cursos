@@ -67,6 +67,8 @@ do {}while{}
 
 for(var;teste;incremento){}
 
+iddoelemento.onclick=function funçãoexec{}
+
 
 
 
