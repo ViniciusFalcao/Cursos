@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+    <h1>Qualquer coisa</h1>
+    <button></button>
+
+    <table>
+
+    </table>
+    <script>
+        var botao=document.querySelector("button");
+        var table=document.querySelector("table")
+        table.style.cssText="border:black 2px solid"
+
+        botao.addEventListener("click",function(){
+            var tr=document.createElement("tr");
+            var td=document.createElement("td");
+
+            td.textContent="Vinicius"
+            tr.appendChild(td)
+            table.appendChild(tr)
+        })
+    </script>
+   
+</body>
+</html>
