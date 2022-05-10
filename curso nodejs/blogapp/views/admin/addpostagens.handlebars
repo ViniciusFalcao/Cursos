@@ -1,0 +1,24 @@
+<form action="" method="POST">
+<div class="card">
+    <div class="card-body">
+        <h4>Nova Postagem</h4>
+        <label for="titulo">Título:</label>
+        <input type="text" name="titulo" class="form-control mt-4" placeholder="Digite um titulo para postagem">
+        <label for="slug">Slug:</label>
+        <input type="text" name="slug" class="form-control mt-4" placeholder="Digite um slug para a postagem">
+        <label for="descriçao">Descrição:</label>
+        <input type="text" name="descricao" class="form-control mt-4" placeholder="Digite uma descrição para a postagem">
+        <label for="conteudo">Contéudo</label>
+        <textarea name="conteudo" class="form-control mt 4"></textarea>
+        <label for="categoria">Categoria</label>
+        <select name="categoria" id="">
+            {{#each categorias}}
+            <option value="{{_id}}">{{nome}}</option>
+            {{else}}
+            <option value="">Nenhuma categoria registrada</option>
+            {{/each}}
+        </select>
+        <button type="submit" class="btn btn-success mt-4">Criar postagem</button>
+    </div>
+</div>
+</form>
